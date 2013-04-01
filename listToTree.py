@@ -2,9 +2,9 @@
 
 class Tree( object ):
     def __init__( self, val, left=None, right=None ):
-	self.val = val
-	self.left = left
-	self.right = right
+        self.val = val
+        self.left = left
+        self.right = right
 
     def __repr__( self ):
         return "( %s, %s, %s )" % ( repr( self.val ), repr( self.left ), repr( self.right ) )
